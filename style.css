@@ -1,0 +1,75 @@
+.d-flex {
+    max-width: auto;
+}
+
+.container-fluid {
+    margin: 0px 150px 0px 150px;
+    padding: 0px;
+}
+
+.Youtube-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bi-youtube {
+    width: 40px;
+    height: 40px;
+    color: red;
+    font-size: 35px;
+    display: flex;
+}
+
+.navbar-brand {
+    padding: 0px;
+    font-weight: bold;
+}
+
+.me-2 {
+    width: 50rem;
+}
+
+.btn-outline-success {
+    color: red;
+    border-color: red;
+}
+
+.bi-person-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligne-1 {
+    margin: 0px 150px 0px 150px;
+    max-height: 500px;
+    height: auto;
+
+}
+
+p {
+    margin: 10px;
+}
+
+iframe {
+    width: auto;
+    max-width: 350px;
+    height: auto;
+}
+
+.container_video {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    min-height: 200px;
+}
+
+hr {
+    color: darkgrey;
+}
+
+@media (min-width: 100px) and (max-width: 1250px) {}
