@@ -46,7 +46,7 @@
 
 .ligne {
     margin: 0px 150px 0px 150px;
-    min-height: 250px;
+    min-height: 50vh;
     height: auto;
 
 }
@@ -57,7 +57,7 @@ p {
 
 iframe {
     width: auto;
-    min-width: 10vh;
+    min-width: 50vh;
     height: auto;
 }
 
@@ -74,12 +74,20 @@ hr {
 }
 
 @media (min-width: 100px) and (max-width: 1250px) {
+    .container-fluid {
+        margin: 5vh;
+    }
+
+    .ligne {
+        margin: 5vh;
+    }
+
     .me-2 {
         max-width: 50rem;
         width: auto;
     }
 
-    .iframe {
+    iframe {
         margin: 5vh;
     }
 }
