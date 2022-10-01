@@ -44,9 +44,9 @@
     align-items: center;
 }
 
-.ligne-1 {
+.ligne {
     margin: 0px 150px 0px 150px;
-    max-height: 500px;
+    min-height: 250px;
     height: auto;
 
 }
@@ -57,12 +57,13 @@ p {
 
 iframe {
     width: auto;
-    max-width: 350px;
+    min-width: 10vh;
     height: auto;
 }
 
 .container_video {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
     min-height: 200px;
@@ -72,4 +73,13 @@ hr {
     color: darkgrey;
 }
 
-@media (min-width: 100px) and (max-width: 1250px) {}
+@media (min-width: 100px) and (max-width: 1250px) {
+    .me-2 {
+        max-width: 50rem;
+        width: auto;
+    }
+
+    .iframe {
+        margin: 5vh;
+    }
+}
