@@ -1,6 +1,10 @@
 console.log("js fonctionnel")
 
-let dark_mode = document.querySelector("label");
-dark_mode.addEventListener("click", (e) => {
-    e.document.body.target.classList.toogle("dark-mode");
+const body = document.querySelector("body");
+const titres = document.querySelectorAll("h3");
+const iframe = document.querySelectorAll("iframe");
+const checkbox = document.getElementById("checkbox");
+
+checkbox.addEventListener('click', function () {
+
 })
