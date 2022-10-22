@@ -73,8 +73,6 @@ body {
 
 .Dark_mode_title {
     margin: 0vh 2vh 0vh 0vh;
-    color: black;
-    text-decoration: none;
 
 }
 
@@ -146,6 +144,8 @@ iframe {
     min-width: 35vh;
     height: auto;
 }
+
+iframe.darkmode {}
 
 .container_video {
     display: flex;
